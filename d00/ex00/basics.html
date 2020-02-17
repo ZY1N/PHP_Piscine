@@ -17,31 +17,45 @@
     </TITLE>
     <STYLE>
         .pinkclass {background-color:pink;}
-        .meows {
-            /* display: block; */
-            text-align: center;
-            /* margin-left: auto;
-            margin-right: auto; */
-            /* margin: 0 auto; */
-        }
-        .meows > img {
-            margin: auto auto;
+        .shops {
             display: block;
-            text-align: center;
+            margin-left: auto; 
+            margin-right: auto;
+            float: left;
+            width: 50%;
+        }
+        .shops > img {
+            width: 250;
+            height: 250;
         }
         H1 {
             color: white;
             text-align: center;
+        }
+        #copyright {
+            float: right;
+            font-family: ""'Courier New', Courier, monospace;
+            font-style: italic;
         }
     </STYLE>
 </HEADER>
 
 <BODY class ="pinkclass">
     <H1> HELLO, WORLD!!! </H1>
-    <div class="meows">
-        <img src="http://placekitten.com/200/300">
-        <img src="http://placekitten.com/200/300">
+    <div style = "text-align: center">
+        <div class="shops">
+            <img src="https://www.logodesignlove.com/images/evolution/ebay-logo-01.jpg">
+            <br/>
+            <a href="https://ebay.com">ebay.com </a>
+        </div>
+        <div class="shops">
+            <img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F467796%2Famzn-logo.jpg&w=700&op=resize">
+            </br>
+            <a href="https://amazon.com">amazon.com</a>
+        </div>
     </div>
+    <hr/>
+    <div id="copyright"> © yinzhang 2020 </div>
 </BODY>
 
 </HTML>
