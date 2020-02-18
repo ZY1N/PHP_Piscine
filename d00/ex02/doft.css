@@ -1,13 +1,110 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    doft.css                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/16 20:37:23 by yinzhang          #+#    #+#              #
-#    Updated: 2020/02/16 20:37:24 by yinzhang         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+body {
+    background-color: #595959;
+    margin:200;
+    padding:0;
+}
 
+#top_title {
+    background-color: #737373;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    /*width: 100%; */
 
+    height: auto;
+    width: auto;
+    display: block;
+
+   /* height: auto; 
+    margin: auto; */
+    /*margin-top: 1%; */
+    padding: .5%;
+    /*position: relative;
+    z-index: 1; */
+}
+
+#42image {
+    display: inline-block;
+    width: 35%;
+}
+
+#mainpart {
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+#left_menu {
+    width: 8%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    padding-bottom: 2%;
+/*
+    background-color: #737373;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 200;
+    height: 750;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position:fixed; */
+}
+
+#right_menu {
+    width:8%;
+    height:auto;
+    padding:1%;
+    float:right;
+    margin-left: 1%;
+    padding-bottom: 13%;
+
+/*
+    display: block;
+    background-color: #737373;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 200;
+    height: 750;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    position: fixed; */
+}
+
+#topright {
+    float:right;
+}
+
+#mid {
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: 2;
+    height: 100%;
+}
+
+#cluster {
+    width: 72%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    margin-left: 3%;
+    z-index: 1;
+/*
+    display: block;
+    display: inline-block;
+    background-color: #737373;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    position: fixed; */
+}
+
+.left_menu_item {
+    width: 100;
+    height: 100;
+}
