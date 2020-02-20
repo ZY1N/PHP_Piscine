@@ -5,44 +5,72 @@
 <!--                                                  +:+ +:+         +:+    -->
 <!-- By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
-<!-- Created: 2020/02/16 20:37:18 by yinzhang          #+#    #+#            -->
-<!-- Updated: 2020/02/16 20:37:19 by yinzhang         ###   ########.fr      -->
+<!-- Created: 2020/02/18 15:50:33 by yinzhang          #+#    #+#            -->
+<!-- Updated: 2020/02/18 15:50:34 by yinzhang         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
 <HTML>
-<HEADER>
-    <TITLE>Day of the 42</TITLE>
-    <link rel="stylesheet" type="text/css" href="doft.css">
-</HEADER>
-<BODY>
-    <div id="top_title">
-            <img src="resources/day_of_the_42.png" id="42image">
-            <div id="topright">
-                <img src="resources/loupe.png">
-                <img title="Start from the beginning" src="resources/reload.png " height="25" width="25">
-                <img src="resources/close.gif" height="25" width="25">
-            </div>
-    </div>
-    
+    <HEADER>
+        <TITLE>Day of the 42</TITLE>
+        <link rel="stylesheet" type="text/css" href="doft.css">
+    </HEADER>
+    <BODY>
+        <div id="top_title">
+                <img src="resources/day_of_the_42.png" id="titleimage" title="titleimage" alt="titleimage">
+                <img src="resources/loupe.png" id="loupe" title="loupe" alt="loupe">
+                <a href="https://www.disney.com">
+                    <img title="Start from the beginning" alt="Start from the beginning" src="resources/reload.png " height="25" width="25" id="reload">
+                </a>
+                <a href="https://www.relaischateaux.com">
+                    <img title="Disconnect" src="resources/close.gif" height="25" width="25" id="close">
+                </a>
+        </div>
+
+
     <div id="mainpart">
         <div id="left_menu">
-                <img src="resources/arrow.png" height="125" width="125">
-                <img src="resources/main.png" height="125" width="125">
-                <img src="resources/oeil.png" height="125" width="125">
-                <img src="resources/outil.png" height="125" width="125">
-                <img src="resources/chat-icon.png" height="125" width="125">
+                <img src="resources/arrow.png" title="Advance" alt="Advance" height="75" width="75">
+                <img src="resources/main.png" title="Take" alt="Take" height="75" width="75">
+                <img src="resources/oeil.png" title="Look" alt="Look" height="75" width="75" id="eye">
+                <img src="resources/outil.png" title="Use" alt="Use" height="75" width="75">
+                <img src="resources/chat-icon.png" title="Speak" alt="Speak" height="75" width="75">
         </div>
     
+
         <div id="cluster">
-            <img src="resources/cluster.jpg" id=mid"">
+            <img src="resources/cluster.jpg" title="Moi Lab" alt="Moi Lab" width="850" height="600">
+            <a href="http://www.ikea.com">
+                <div id="chairsquare" title="Principle Chair" alt="Principle Chair" ></div>
+            </a>
+            <a href="http://www.apple.com">
+                <div id="computersquare" title="Mac" alt="Mac"></div>
+            </a>
         </div>
-    
+
         <div id="right_menu">
-            <img src="resources/book.png" height="200" width="150">
-            <img src="resources/towel.png" height="75" width="75">
-            <img src="resources/brick.jpg" height="175" width="175">
+            <img src="resources/book.png" title="Book" alt="Book" height="75" width="50" class="rightitemcenter">
+            <img src="resources/towel.png" title="Towel" alt="Towel" height="50" width="75" class="rightitemcenter">
+            <div>
+                <img src="resources/brick.jpg" title="Brick" alt="Brick" height="75" width="18.75" border="0"><img src="resources/brick.jpg" title="Brick" height="75" width="18.75" border="0"><img src="resources/brick.jpg" title="Brick" height="75" width="18.75" border="0"><img src="resources/brick.jpg" title="Brick" height="75" width="18.75" border="0">
+            </div>
         </div>
     </div>
-</BODY>
-</HTML>
+
+    <div id="greenbox">
+        <div id="form">
+            <div style="position:absolute; top:20px; left: 10px">
+                Vous <h2 style="display: inline;">entrez</h2> alors dans une grande piece remplie
+                </br>d'ordinateurs...
+                </br><i>- Bonjour, vous êtes nouveau ici ?</i>
+                </br>
+                <form>
+                    <input type="text" size="50">
+                    <input type="submit" value="Repondre">
+                </form>    
+            </div>
+        </div>
+    </div>
+
+    </BODY>
+    </HTML>

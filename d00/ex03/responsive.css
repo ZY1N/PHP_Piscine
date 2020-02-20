@@ -1,0 +1,92 @@
+body {
+    height: auto;
+    width: auto;
+    background-image: url('https://www.asianscientist.com/wp-content/uploads/bfi_thumb/20160627-Grand-Challenges-of-Science-31qtkdbz2aajgveb3em2gw.jpg');
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+H1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5vw 1.5vh;
+}
+
+p {
+    font-size: 1.25vw 1.25vh;
+    margin: 0%;
+}
+
+#tablediv {
+    height: auto;
+    width: auto;
+}
+
+.atomic_num {
+    text-align: left;
+}
+
+.atomic_weight {
+    text-align: right;
+}
+
+.blank_row {
+    height: 75px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.alkali_metals {
+    border: 1px solid black;
+    background-color: gold;
+}
+
+.alkaline_earth_metals {
+    border: 1px solid black;
+    background-color: yellow;   
+}
+
+.transition_metals {
+    border: 1px solid black;
+    background-color: E99786;
+}
+
+.noble_gas {
+    border: 1px solid black;
+    background-color: #9BE8E9;
+}
+
+.other_nonmetal {
+    border: 1px solid black;
+    background-color: #9DED9D;
+}
+
+.metalloid {
+    border: 1px solid black;
+    background-color: #438243;
+}
+
+.pt_metal {
+    border: 1px solid black;
+    background-color: #28DBA5;
+}
+
+.lanthanoids {
+    border: 1px solid black;
+    background-color: peachpuff;
+}
+
+.actinoids {
+    border: 1px solid black;
+    background-color: #DEADE5;
+}
+
+.somethingelse {
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
