@@ -1,0 +1,30 @@
+admin
+	Sticker: 0
+	Tshirt: 0
+	Jacket: 0
+	Performance Tshirt: 0
+	Pullover: 0
+	Jogger: 0
+	Summer Zipup: 0
+
+
+admin
+	Sticker: 0
+	Tshirt: 0
+	Jacket: 0
+	Performance Tshirt: 0
+	Pullover: 0
+	Jogger: 0
+	Summer Zipup: 0
+
+
+admin
+	Sticker: 0
+	Tshirt: 0
+	Jacket: 0
+	Performance Tshirt: 0
+	Pullover: 0
+	Jogger: 0
+	Summer Zipup: 0
+
+

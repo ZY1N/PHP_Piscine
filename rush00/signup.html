@@ -1,0 +1,64 @@
+<html>
+    <header>
+		<style>
+			.heading{
+				text-align: center;
+				background-color: aqua;
+			}
+			#headingdiv{
+				height: 100px;
+				width: auto;
+				background-color: aqua;
+			}
+            #logindiv{
+                background-color: bisque;
+            }
+            form{
+                text-align: center;
+            }
+            body{
+                background-color: bisque;
+            }
+            table, tr{
+                text-align: center;
+            }
+		</style>
+    </header>
+    <body>
+		<div id="headingdiv">
+			<h1 class="heading">WELCOME To 42 Market</h1><h1>
+			<form method="post" action="create.php">
+				<table style="width:100%">
+					<tr>
+                        <td>
+							<a href="landing.php">HOME</a>
+						</td>
+						<td>
+							<a href="signin.html">SIGN IN</a>
+						</td>
+						<td>
+							<a href="signup.html">SIGN UP</a>
+						</td>
+						<td>
+							<a href="cart.php">CART</a>
+						</td>
+						<td>
+							<a href="admin.php">ADMIN</a>
+						</td>
+					</tr>
+				</table>
+			</form>	
+        </div>
+        <div id="logindiv">
+            <h2 style="text-align: center">SIGNUP TO 42 MARKET</h2>
+            <form method="post" action="signup.php">
+                Username: <input type="text" name="login">
+                </br>
+                Password: <input type="password" name="passwd">
+                </br>
+                <input type="submit" name="submit" value="OK">
+        </form>
+        </div>
+    </body>
+</html>
+
